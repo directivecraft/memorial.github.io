@@ -46,7 +46,7 @@ p{margin:0 0 1.1em}
 .hero{padding:56px 0 24px;text-align:center}
 .hero h1{font-size:2.5rem;line-height:1.15;margin:0 0 10px}
 .hero .dates{color:var(--muted);font-size:1.05rem;letter-spacing:.5px}
-.hero-photo{margin:30px auto 0;max-width:620px;border-radius:6px;box-shadow:0 10px 30px rgba(40,40,40,.16)}
+.hero-photo{margin:30px auto 0;max-width:min(620px,100%);border-radius:6px;box-shadow:0 10px 30px rgba(40,40,40,.16)}
 .kicker{text-transform:uppercase;letter-spacing:2.5px;font-size:.78rem;color:var(--accent-soft);margin-bottom:14px}
 
 /* Portrait + text split */
@@ -81,5 +81,5 @@ p{margin:0 0 1.1em}
   body{font-size:17px}
   .hero h1{font-size:2rem}
   .split{grid-template-columns:1fr;gap:20px}
-  .split img{max-width:420px;margin:0 auto}
+  .split img{max-width:min(420px,100%);margin:0 auto}
 }
